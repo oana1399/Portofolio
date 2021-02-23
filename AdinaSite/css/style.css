@@ -1,0 +1,252 @@
+body {
+  margin:0;
+  padding:0;
+}
+/* Home Section */
+#home {
+  height:100vh;
+  width:100%;
+  background-image: url('../images/pozaHome.jpg');
+  /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/pic5f.jpg'); */
+  background-size: cover;
+  background-position: center;
+}
+#big-title {
+  font-family: inherit;
+  font-size:70px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+#title-quote {
+  font-size:30px;
+  font-family: 'Noto Sans', sans-serif;
+}
+.logo {
+  margin-left: 1%;
+}
+.title-text {
+  margin-left: -55%;
+  padding-top: 8%;
+  text-align: center;
+  color:#1e1e1e;
+
+}
+
+/* Navbar Section */
+
+.navbar-brand {
+  font-family: 'Noto Sans';
+  font-size: 2rem;
+  font-weight: bold;
+  color:#1e1e1e;
+  padding-left: 3rem;
+}
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.1rem;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0c7b93;
+}
+
+/* Servicii */
+
+#servicii {
+  position: relative;
+  margin-top:0;
+  text-align: center;
+}
+.titlu-servicii {
+  font-family: 'Noto Sans';
+  font-weight: bold;
+  font-size: 3.5rem;
+  color:#79bac1;
+  letter-spacing: 3px;
+  margin-bottom: 3rem;
+}
+.servicii-cont {
+  padding-top: 7rem;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 4.5%;
+  padding-bottom:2%;
+  text-align: center;
+  width:600px;
+}
+.icon {
+  color: #79bac1;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #0c7b93;
+}
+
+/* Media */
+
+#media {
+  background-color: #79bac1;
+  margin-top: 10%;
+  padding: 10% 3%;
+  text-align: center;
+}
+.media-heading {
+  position: relative;
+  bottom: 7rem;
+  font-family: 'Noto Sans';
+}
+.media-title {
+  font-weight: bold;
+  font-size:3.3rem;
+  letter-spacing: 2px;
+}
+.media-desc {
+  font-size: 1.5rem;
+}
+.container-media {
+  position: relative;
+}
+.img-media {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 10%;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.media-box:hover .img-media {
+  opacity: 0.3;
+}
+.media-box:hover .middle {
+  opacity: 1;
+}
+.text {
+  background-color: #0c7b93;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Noto Sans';
+  letter-spacing: 4px;
+}
+
+/* Preturi */
+
+#preturi {
+  padding: 100px;
+  text-align: center;
+}
+.price-title {
+  font-family: 'Noto Sans';
+  font-weight: bold;
+  font-size: 3.5rem;
+  color:#0c7b93;
+  letter-spacing: 3px;
+}
+.price-desc {
+  font-size:1.5rem;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pdesc {
+  text-align: left;
+  font-size:1.2rem;
+  font-family: 'Noto Sans';
+}
+.card {
+  border-color: #0c7b93;
+}
+.card-header {
+  background-color: #0fabbc;
+}
+
+/* Reviews */
+
+
+#testimoniale {
+  background-color: #79bac1;
+}
+.reviews {
+  width:100%;
+  height: 50rem;
+  text-align: center;
+}
+.carousel-item {
+  text-align: center;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-top: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.testimonial-image {
+  width: 7%;
+  padding-top:3rem;
+  padding-bottom: 5rem;
+}
+.titlu-recenzii {
+  font-family: 'Noto Sans';
+  font-weight: bold;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  position: relative;
+  top:3rem;
+}
+
+/* Footer Section */
+
+.footer {
+  background-color:#1e1e1e;
+  color:#f1f1f1;
+}
+.contact {
+  padding:5% 5%;
+  /* text-align: center; */
+}
+.col-adresa {
+  /* border:2px solid; */
+  /* border-color:#0fabbc; */
+  border-radius: 10%;
+  background-color: #313131;
+  margin-bottom: 1.5%;
+}
+.address {
+  padding-top:1rem;
+}
+.col-contact {
+  padding: 3.5%;
+}
+.copyright {
+  margin-top: 10%;
+  text-align: center;
+  color: #5d5d5d;
+}
+.social-title {
+  font-size:1.3rem;
+}
+.emoji {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  color:#0fabbc;
+}
