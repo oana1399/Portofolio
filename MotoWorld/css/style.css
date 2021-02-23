@@ -1,0 +1,192 @@
+.btn{
+  color:lightblue;
+}
+.bg{
+  height: 100%;
+}
+#primul-h1{
+  padding-top: 21%;
+  color:#f1f1f1;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+#doi-h2
+{
+  color:#d7d1c9;
+  font-weight:  lighter;
+  font-style: italic;
+}
+.text-center{
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* ABOUT FORM */
+#about{
+  align-self: center;
+}
+
+/* OUR TEAM */
+
+.container {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 7px
+}
+
+.small {
+  font-size: 12px !important;
+  letter-spacing: 0.5px !important
+}
+
+.card-header img {
+  border: 5px solid white !important
+}
+
+.outside {
+  position: absolute;
+  left: -11%
+}
+
+.card-team {
+  border-radius: 20px !important;
+  box-shadow: 2px 2px 10px 0px rgb(100, 108, 170);
+  width: 20rem;
+  margin-left: 25px
+}
+
+hr {
+  justify-content: center !important;
+  align-self: center !important;
+  width: 80%
+}
+
+.card-footer {
+  border-radius: 20px !important
+}
+
+.bold {
+  font-weight: 500
+}
+
+.margin-left {
+  margin-left: 30px !important
+}
+
+@media (max-width: 390px) {
+  .card {
+      width: unset !important
+  }
+
+  .outside {
+      position: relative;
+      left: 0
+  }
+}
+
+
+/* CONTACT FORM */
+
+body{
+  background: -webkit-linear-gradient(left, #4b4949e5, #5a545465);
+}
+
+.contact-form{
+  background: #fff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
+  
+}
+.contact-form .form-control{
+  border-radius:1rem;
+}
+.contact-image{
+  text-align: center;
+}
+
+.contact-image img{
+  border-radius: 6rem;
+  width: 25%;
+  margin-top: -10%;
+}  
+
+
+.contact-form form{
+  padding: 14%;
+}
+.contact-form form .row{
+  margin-bottom: -7%;
+}
+.contact-form h3{
+  margin-bottom: 3%;
+  margin-top: 1%;
+  text-align: center;
+  color: #000000;
+}
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #dc3545;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+/*.btnContactSubmit
+{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0062cc;
+  border: none;
+  cursor: pointer;
+}*/
+.contact-check-label{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.road{
+  color: white;
+}
+.photo{
+  padding-top: 20px;
+  color: white;
+}
+
+
+.team{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+/*hr{
+  margin: 50px;
+  border-top: 3px dotted rgb(77, 71, 71) ;
+}*/
+
+
+@media only screen and (min-width: 990px) {
+  .text-center{
+    font-size: 2.5rem;
+  }
+  .contact-image img{
+    border-radius: 6rem;
+    width: 11%; 
+    margin-top: -3%;
+    
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .btn{
+    padding-left: 0px;
+  }
+}
