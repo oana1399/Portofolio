@@ -1,0 +1,236 @@
+.navbar {
+padding-top: 2rem;
+}
+.navbar-brand {
+  font-family: 'Parisienne', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  color:#e6e6e6;
+  padding-left: 3rem;
+}
+.buton-nav {
+    font-family: 'Parisienne', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0px 18px;
+    color: #e6e6e6;
+}
+.nav-item {
+  padding: 0 20px;
+}
+.buton-nav:hover {
+    color: #e3d0b9;
+}
+a.focus:link, a.focus:visited
+{color:#e3d0b9;}
+
+#big-title {
+  font-family: 'Parisienne', cursive;
+  font-size: 7rem;
+  font-weight: bold;
+  color: #e3d0b9;
+  filter: brightness(85%);
+}
+.shop {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/coffeeShop.jpg');
+  background-size: cover;
+  background-position: center;
+  height:43rem;
+}
+.title-text {
+  padding-top: 9%;
+}
+
+.product-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4f3830;
+  filter: brightness(85%);
+  margin-top: 5%;
+  margin-left: 3%;
+}
+.line {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.pricing-column {
+  padding: 0;
+}
+.card {
+  margin: 45px 0;
+  border: none;
+  background-color: inherit;
+}
+.card-footer h4 {
+  color: #4f3830;
+}
+.card-footer {
+  background-color: inherit;
+  border-top:none;
+}
+
+.products {
+  background-color: #e6e6e6;
+}
+
+
+.card-body {
+  position: relative;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card-body:hover .image {
+  opacity: 0.3;
+}
+
+/*.card-body:hover .middle {
+  opacity: 1;
+}*/
+
+.hidden-text {
+  background-color: #4f3830;
+  color: #e3d0b9;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*.card-body:hover .middle2 {
+  opacity: 1;
+}*/
+
+.middle3 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*.card-body:hover .middle3 {
+  opacity: 1;
+}*/
+
+
+
+.bg-grey {
+    background: #292929;
+}
+.logo-footer {
+    margin-bottom: 40px;
+}
+footer {
+  color: grey;
+}
+footer p, a {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+footer h6 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+    position: relative;
+}
+footer h6:after {
+    position: absolute;
+    content: "";
+    background: grey;
+    width: 12%;
+    height: 1px;
+    left: 0;
+    bottom: -20px;
+}
+.btn-footer {
+    color: grey;
+
+   text-decoration: none;
+  border: 1px solid;
+  border-radius: 43px;
+  font-size: 13px;
+  padding: 7px 30px;
+  line-height: 47px;
+}
+.btn-footer:hover {
+  text-decoration: none;
+ }
+.form-footer input[type="text"] {
+    border: none;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    padding-left: 10px;
+}
+::placeholder {
+    font-size: 10px;
+    padding-left: 10px;
+    font-style: italic;
+}
+.form-footer input[type="button"] {
+    border: none;
+    background:#232323;
+        margin-left: -5px;
+    color: #fff;
+    outline: none;
+    border-radius: 0 16px 16px 0;
+    padding: 2px 12px;
+}
+.social .fa {
+    color: grey;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
+}
+footer ul li {
+    list-style: none;
+    display: block;
+}
+footer ul  {
+   padding-left: 0;
+}
+footer ul  li a{
+  text-decoration: none;
+  color: grey;
+  text-decoration:none;
+}
+a:hover {
+    text-decoration: none;
+    color: #e3d0b9;
+
+}
+.logo-part {
+    border-right: 1px solid grey;
+    height: 100%;
+}
+.footer-logo {
+  color:#e3d0b9;
+}

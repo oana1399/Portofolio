@@ -1,0 +1,215 @@
+.menu-logo {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/menuBackground3.jpg');
+  background-size: cover;
+  background-position: center;
+  height:43rem;
+}
+#big-title {
+  font-family: 'Parisienne', cursive;
+  font-size: 7rem;
+  font-weight: bold;
+  color: #e3d0b9;
+  filter: brightness(85%);
+}
+
+.title-text {
+  padding-top: 10%;
+}
+
+.navbar {
+padding-top: 2rem;
+}
+.navbar-brand {
+  font-family: 'Parisienne', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  color:#e6e6e6;
+  padding-left: 3rem;
+}
+.buton-nav {
+    font-family: 'Parisienne', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0px 18px;
+    color: #e6e6e6;
+}
+.nav-item {
+  padding: 0 20px;
+}
+.buton-nav:hover {
+    color: #e3d0b9;
+}
+a.focus:link, a.focus:visited
+{color:#e3d0b9;}
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    padding-left: 4%;
+  }
+  .custom-toggler .navbar-toggler-icon {
+            background-image: url( "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(230, 230, 230, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+}
+
+
+#menu {
+  padding-top: 3rem;
+  background-color:#e6e6e6;
+}
+.sub-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4f3830;
+  filter: brightness(85%);
+}
+
+.line {
+    margin: 2rem 10rem;
+    border: 0;
+    background: #4f3830;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#e6e6e6), to(#e6e6e6), color-stop(50%, #4f3830));
+}
+#menu {
+  padding-bottom: 10rem;
+}
+
+#menu .menu-item {
+	margin: 45px 0;
+}
+
+#menu .menu-item-name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #4f3830;
+  filter: brightness(85%);
+	margin-bottom: 10px;
+}
+
+#menu .menu-item-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4f3830;
+  filter: brightness(85%);
+}
+
+#menu .menu-item-price {
+	float: right;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #4f3830;
+  filter: brightness(85%);
+	margin-top: -45px;
+}
+
+#menu .coloana {
+  padding-right: 50px;
+}
+
+
+
+.bg-grey {
+    background: #292929;
+}
+.logo-footer {
+    margin-bottom: 40px;
+}
+footer {
+  color: grey;
+}
+footer p, a {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+footer h6 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+    position: relative;
+}
+footer h6:after {
+    position: absolute;
+    content: "";
+    background: grey;
+    width: 12%;
+    height: 1px;
+    left: 0;
+    bottom: -20px;
+}
+.btn-footer {
+    color: grey;
+
+   text-decoration: none;
+  border: 1px solid;
+  border-radius: 43px;
+  font-size: 13px;
+  padding: 7px 30px;
+  line-height: 47px;
+}
+.btn-footer:hover {
+  text-decoration: none;
+ }
+.form-footer input[type="text"] {
+    border: none;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    padding-left: 10px;
+}
+::placeholder {
+    font-size: 10px;
+    padding-left: 10px;
+    font-style: italic;
+}
+.form-footer input[type="button"] {
+    border: none;
+    background:#232323;
+        margin-left: -5px;
+    color: #fff;
+    outline: none;
+    border-radius: 0 16px 16px 0;
+    padding: 2px 12px;
+}
+.social .fa {
+    color: grey;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
+}
+footer ul li {
+    list-style: none;
+    display: block;
+}
+footer ul  {
+   padding-left: 0;
+}
+footer ul  li a{
+  text-decoration: none;
+  color: grey;
+  text-decoration:none;
+}
+a:hover {
+    text-decoration: none;
+    color: #e3d0b9;
+
+}
+.logo-part {
+    border-right: 1px solid grey;
+    height: 100%;
+}
+.footer-logo {
+  color:#e3d0b9;
+}
+
+.menu-order {
+  text-align: center;
+  background-color: #e6e6e6;
+  margin:0;
+  padding-bottom: 5rem;
+
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #4f3830;
+}
